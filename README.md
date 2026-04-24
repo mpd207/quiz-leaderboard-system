@@ -1,4 +1,4 @@
-# Quiz Leaderboard System
+﻿# Quiz Leaderboard System
 
 This is a backend integration Java application that simulates consuming API responses from an external validator (a quiz show system) and processing them correctly.
 
@@ -33,8 +33,8 @@ Each event is uniquely identified using:
 This ensures that even if the same API response appears across multiple polls, it is processed only once.
 
 Example:
-Poll 1 → R1 + Alice → processed  
-Poll 3 → R1 + Alice → ignored (duplicate)
+Poll 1 â†’ R1 + Alice â†’ processed  
+Poll 3 â†’ R1 + Alice â†’ ignored (duplicate)
 
 ## Time Complexity
 
@@ -84,8 +84,8 @@ Final Leaderboard:
   Charlie: 260
 
 --- Submitting Final Leaderboard ---
-Response Status: 201
-Full Submit Response: {"regNo":"RA2311030010093","totalPollsMade":10,"submittedTotal":835,"attemptCount":1}
+Response Status: 200/201
+Full Submit Response: submittedTotal=835
 
 SUCCESS: Leaderboard submitted successfully!
 ```
